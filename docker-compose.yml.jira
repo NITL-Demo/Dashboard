@@ -1,0 +1,49 @@
+mongodb:
+  image: mongo:latest
+  container_name: mongodb
+  command: mongod --smallfiles
+  ports:
+   - "27017:27017"
+  volumes:
+   - ./mongo:/data/db:rw
+  volume_driver: local
+
+
+hygieia-api:
+  image: hygieia-api:latest
+  container_name: hygieia-api
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:dashboard
+
+hygieia-ui:
+  image: hygieia-ui:latest
+  container_name: hygieia-ui
+  ports:
+  - "8089:80"
+  links:
+  - hygieia-api
+
+
+hygieia-jira-feature-collector:
+  image: hygieia-jira-feature-collector:latest
+  container_name: hygieia-jira
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JIRA_BASE_URL=https://gurpreetahluwalia.atlassian.net/        
+  - JIRA_CREDENTIALS=YWRtaW46cGFzc3dvcmQxMjM=
+  - JIRA_ISSUE_TYPE_ID=10100
+  - JIRA_SPRINT_DATA_FIELD_NAME=TES Sprint 1
+  - JIRA_EPIC_FIELD_NAME=MyEpic1
+
+
+
+
+

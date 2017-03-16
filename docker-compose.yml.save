@@ -1,0 +1,114 @@
+mongodb:
+  image: mongo:latest
+  container_name: mongodb
+  command: mongod --smallfiles
+  ports:
+   - "27017:27017"
+  volumes:
+   - ./mongo:/data/db:rw
+  volume_driver: local
+
+
+hygieia-api:
+  image: hygieia-api:latest
+  container_name: hygieia-api
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:dashboard
+
+hygieia-ui:
+  image: hygieia-ui:latest
+  container_name: hygieia-ui
+  ports:
+  - "8089:80"
+  links:
+  - hygieia-api
+
+
+hygieia-github-scm-collector:
+  image: hygieia-github-scm-collector:latest
+  container_name: hygieia-github
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+# place any values you want to change in docker-compose.override.yml
+  environment:
+  - GITHUB_HOST=https://github.com/NITL-Demo/ContinuousDeliveryApp 
+  - GITHUB_CRON=0 * * * * *
+  - GITHUB_COMMIT_THREASHOLD_DAYS=300
+
+
+
+hygieia-jira-feature-collector:
+  image: hygieia-jira-feature-collector:latest
+  container_name: hygieia-jira
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+        # you can override these by creating a docker-compose.overider.yml and put in entries like this: REQUIRED Entries
+  - JIRA_BASE_URL=https://gurpreetahluwalia.atlassian.net/
+        #64-bit encoded credentials with the pattern username:password on a mac you con create them with : echo "username:password" | base64 reference: 
+        #https://www.base64decode.org/
+  - JIRA_CREDENTIALS=runa.pal@niit-tech.com:runapal123
+  - JIRA_ISSUE_TYPE_ID=10103
+  - JIRA_SPRINT_DATA_FIELD_NAME=TES Sprint 1
+
+
+
+hygieia-jenkins-build-collector:
+  image: hygieia-jenkins-build-collector:latest
+  container_name: hygieia-jenkins-build
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JENKINS_CRON=0 * * * * *
+  - JENKINS_MASTER=http://172.18.51.88:8082/
+  - JENKINS_USERNAME=niit
+  - JENKINS_API_KEY=niit
+
+
+
+hygieia-sonar-codequality-collector:
+  image: hygieia-sonar-codequality-collector:latest
+  container_name: hygieia-sonar-codequality
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - SONAR_CRON=0 0/5 * * * *
+  - SONAR_URL=http://centralsonar.niit-tech.in:9000
+
+
+hygieia-jenkins-cucumber-test-collector:
+  image: hygieia-jenkins-cucumber-test-collector:latest
+  container_name: hygieia-jenkins-cucumber
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+#Jenkins server (required) - Can provide multiple
+  - JENKINS_MASTER=http://172.18.51.88:8082/
+#If using username/token for api authentication (required for Cloudbees Jenkins Ops Center) see sample
+#  - JENKINS_OP_CENTER=http://username:token@jenkins.company.co
+#Another option: If using same username/password Jenkins auth - set username/apiKey to use HTTP Basic Auth (blank=no auth)
+  - JENKINS_USERNAME=niit
+  - JENKINS_API_KEY=niit
+  - JENKINS_CRON=0 0/5 * * * *
+#Determines if build console log is collected - defaults to false
+#  - JENKINS_SAVE_LOG=true
+

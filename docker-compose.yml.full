@@ -1,0 +1,118 @@
+mongodb:
+  image: mongo:latest
+  container_name: mongodb
+  command: mongod --smallfiles
+  ports:
+   - "27017:27017"
+  volumes:
+   - ./mongo:/data/db:rw
+  volume_driver: local
+
+
+hygieia-api:
+  image: hygieia-api:latest
+  container_name: hygieia-api
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:dashboard
+
+hygieia-ui:
+  image: hygieia-ui:latest
+  container_name: hygieia-ui
+  ports:
+  - "8089:80"
+  links:
+  - hygieia-api
+
+
+hygieia-github-scm-collector:
+  image: hygieia-github-scm-collector:latest
+  container_name: hygieia-github
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - GITHUB_HOST=github.com 
+  - GITHUB_CRON=0 * * * * *
+  - GITHUB_COMMIT_THREASHOLD_DAYS=300
+
+
+
+hygieia-jira-feature-collector:
+  image: hygieia-jira-feature-collector:latest
+  container_name: hygieia-jira
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JIRA_BASE_URL=https://gurpreetahluwalia.atlassian.net/        
+  - JIRA_CREDENTIALS=YWRtaW46cGFzc3dvcmQxMjM=
+  - JIRA_ISSUE_TYPE_ID=10100,10103
+  - JIRA_SPRINT_DATA_FIELD_NAME=TES Sprint 1
+  - JIRA_EPIC_FIELD_NAME=MyEpic1   
+
+
+hygieia-jenkins-build-collector:
+  image: hygieia-jenkins-build-collector:latest
+  container_name: hygieia-jenkins-build
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JENKINS_CRON=0 * * * * *
+  - JENKINS_MASTER=http://172.18.51.88:8082/
+  - JENKINS_USERNAME=niit
+  - JENKINS_API_KEY=niit
+
+
+
+hygieia-sonar-codequality-collector:
+  image: hygieia-sonar-codequality-collector:latest
+  container_name: hygieia-sonar-codequality
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - SONAR_CRON=0 0/5 * * * *
+  - SONAR_URL=http://centralsonar.niit-tech.in:9000
+
+
+hygieia-jenkins-cucumber-test-collector:
+  image: hygieia-jenkins-cucumber-test-collector:latest
+  container_name: hygieia-jenkins-cucumber
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JENKINS_CRON=0 * * * * *
+  - JENKINS_MASTER=http://172.18.51.88:8082/
+  - JENKINS_USERNAME=niit
+  - JENKINS_API_KEY=niit  
+  - JENKINS_CUCUMBER_JSON_FILENAME=cucumber.json
+
+
+hygieia-artifactory-artifact-collector:
+  image: hygieia-artifactory-artifact-collector:latest
+  container_name: hygieia-artifactory
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - hygieia-api
+  environment:
+  - ARTIFACTORY_URL=http://172.18.51.88:8081/
+  - ARTIFACTORY_PATTERN0=(?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\\k<module>)-\\k<version>(-(?<classifier>[^\\.]+))?(\\.(?<ext>.+))?
+  - ARTIFACTORY_PATTERN1=(?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\\k<version>(-(?<classifier>[^\\.]+))?\\.(?<ext>xml)
+  - ARTIFACTORY_PATTERN2=(?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\\.-/]+)-\\k<version>(-(?<classifier>[^\\.]+))?(\\.(?<ext>.+))?

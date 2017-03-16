@@ -1,0 +1,42 @@
+mongodb:
+  image: mongo:latest
+  container_name: mongodb
+  command: mongod --smallfiles
+  ports:
+   - "27017:27017"
+  volumes:
+   - ./mongo:/data/db:rw
+  volume_driver: local
+
+
+hygieia-api:
+  image: hygieia-api:latest
+  container_name: hygieia-api
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:dashboard
+
+hygieia-ui:
+  image: hygieia-ui:latest
+  container_name: hygieia-ui
+  ports:
+  - "8089:80"
+  links:
+  - hygieia-api
+
+
+hygieia-artifactory-artifact-collector:
+  image: hygieia-artifactory-artifact-collector:latest
+  container_name: hygieia-artifactory
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - hygieia-api
+  environment:
+  - ARTIFACTORY_URL=http://172.18.51.88:8081/
+  - ARTIFACTORY_PATTERN0=(?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\\k<module>)-\\k<version>(-(?<classifier>[^\\.]+))?(\\.(?<ext>.+))?
+  - ARTIFACTORY_PATTERN1=(?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\\k<version>(-(?<classifier>[^\\.]+))?\\.(?<ext>xml)
+  - ARTIFACTORY_PATTERN2=(?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\\.-/]+)-\\k<version>(-(?<classifier>[^\\.]+))?(\\.(?<ext>.+))?

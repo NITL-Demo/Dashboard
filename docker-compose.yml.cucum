@@ -1,0 +1,59 @@
+mongodb:
+  image: mongo:latest
+  container_name: mongodb
+  command: mongod --smallfiles
+  ports:
+   - "27017:27017"
+  volumes:
+   - ./mongo:/data/db:rw
+  volume_driver: local
+
+
+hygieia-api:
+  image: hygieia-api:latest
+  container_name: hygieia-api
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:dashboard
+
+hygieia-ui:
+  image: hygieia-ui:latest
+  container_name: hygieia-ui
+  ports:
+  - "8089:80"
+  links:
+  - hygieia-api
+
+
+hygieia-jenkins-build-collector:
+  image: hygieia-jenkins-build-collector:latest
+  container_name: hygieia-jenkins-build
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JENKINS_CRON=0 * * * * *
+  - JENKINS_MASTER=http://172.18.51.88:8082/
+  - JENKINS_USERNAME=niit
+  - JENKINS_API_KEY=niit
+
+
+hygieia-jenkins-cucumber-test-collector:
+  image: hygieia-jenkins-cucumber-test-collector:latest
+  container_name: hygieia-jenkins-cucumber
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+  environment:
+  - JENKINS_CRON=0 * * * * *
+  - JENKINS_MASTER=http://172.18.51.88:8082/
+  - JENKINS_USERNAME=niit
+  - JENKINS_API_KEY=niit  
+  - JENKINS_CUCUMBER_JSON_FILENAME=cucumber.json

@@ -1,0 +1,46 @@
+mongodb:
+  image: mongo:latest
+  container_name: mongodb
+  command: mongod --smallfiles
+  ports:
+   - "27017:27017"
+  volumes:
+   - ./mongo:/data/db:rw
+  volume_driver: local
+
+
+hygieia-api:
+  image: hygieia-api:latest
+  container_name: hygieia-api
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:dashboard
+
+hygieia-ui:
+  image: hygieia-ui:latest
+  container_name: hygieia-ui
+  ports:
+  - "8089:80"
+  links:
+  - hygieia-api
+
+
+hygieia-github-scm-collector:
+  image: hygieia-github-scm-collector:latest
+  container_name: hygieia-github
+  volumes:
+  - ./logs:/hygieia/logs
+  links:
+  - mongodb:mongo
+  - hygieia-api
+# place any values you want to change in docker-compose.override.yml
+  environment:
+  - GITHUB_HOST=https://github.com/NITL-Demo/ContinuousDeliveryApp 
+  - GITHUB_CRON=0 * * * * *
+  - GITHUB_COMMIT_THREASHOLD_DAYS=300
+
+
+
