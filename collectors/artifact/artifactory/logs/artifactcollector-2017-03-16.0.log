@@ -1,0 +1,12 @@
+2017-03-16 10:20:48,544 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2017-03-16 10:20:48,551 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,551 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,632 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2017-03-16 10:20:48,632 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,633 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,694 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2017-03-16 10:20:48,695 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,695 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,698 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2017-03-16 10:20:48,699 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2017-03-16 10:20:48,699 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
