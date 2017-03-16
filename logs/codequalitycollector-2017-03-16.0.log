@@ -1,0 +1,824 @@
+2017-03-16 00:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:00:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:00:00,029 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:00:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:00:00,092 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:00:00,093 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:00:00,118 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:00:00,118 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:05:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:05:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:05:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:05:00,143 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:05:00,144 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:05:00,184 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:05:00,184 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:10:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:10:00,012 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:10:00,012 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:10:00,012 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:10:00,129 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:10:00,130 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:10:00,173 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:10:00,173 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:15:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:15:00,024 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:15:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:15:00,168 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:15:00,170 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:15:00,219 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:15:00,219 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:20:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:20:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:20:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:20:00,131 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:20:00,132 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:20:00,174 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:20:00,174 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:25:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:25:00,022 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:25:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:25:00,139 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:25:00,140 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:25:00,182 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:25:00,182 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:30:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:30:00,025 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:30:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:30:00,144 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:30:00,145 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:30:00,186 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:30:00,186 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:35:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:35:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:35:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:35:00,162 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:35:00,163 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:35:00,216 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:35:00,216 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:40:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:40:00,010 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:40:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:40:00,127 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:40:00,128 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:40:00,172 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:40:00,173 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:45:00,014 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:45:00,015 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:45:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:45:00,112 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:45:00,114 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:45:00,160 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:45:00,160 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:50:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:50:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:50:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:50:00,190 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:50:00,192 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:50:00,239 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:50:00,240 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 00:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 00:55:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:55:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 00:55:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 00:55:00,132 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 00:55:00,134 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 00:55:00,181 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 00:55:00,181 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:00:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:00:00,021 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:00:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:00:00,145 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:00:00,147 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:00:00,187 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:00:00,187 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:05:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:05:00,016 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:05:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:05:00,153 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:05:00,154 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:05:00,195 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:05:00,196 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:10:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:10:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:10:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:10:00,145 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:10:00,148 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:10:00,188 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:10:00,188 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:15:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:15:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:15:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:15:00,143 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:15:00,144 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:15:00,196 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:15:00,196 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:20:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:20:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:20:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:20:00,157 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:20:00,159 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:20:00,200 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:20:00,200 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:25:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:25:00,013 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:25:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:25:00,130 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:25:00,131 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:25:00,187 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:25:00,187 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:30:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:30:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:30:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:30:00,131 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:30:00,132 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:30:00,171 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:30:00,171 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:35:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:35:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:35:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:35:00,152 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:35:00,153 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:35:00,195 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:35:00,195 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:40:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:40:00,016 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:40:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:40:00,130 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:40:00,132 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:40:00,174 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:40:00,174 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:45:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:45:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:45:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:45:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:45:00,138 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:45:00,139 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:45:00,179 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:45:00,179 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:50:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:50:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:50:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:50:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:50:00,134 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:50:00,135 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:50:00,173 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:50:00,173 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 01:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 01:55:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:55:00,015 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 01:55:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 01:55:00,131 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 01:55:00,132 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 01:55:00,172 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 01:55:00,172 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:00:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:00:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:00:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:00:00,155 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:00:00,156 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:00:00,196 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:00:00,196 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:05:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:05:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:05:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:05:00,181 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:05:00,182 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:05:00,222 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:05:00,223 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:10:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:10:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:10:00,022 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:10:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:10:00,150 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:10:00,152 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:10:00,193 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:10:00,193 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:15:00,080 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:15:00,081 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:15:00,081 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:15:00,261 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:15:00,262 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:15:00,313 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:15:00,313 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:20:00,068 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:20:00,068 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:20:00,068 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:20:00,205 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:20:00,206 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:20:00,250 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:20:00,250 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:25:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:25:00,010 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:25:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:25:00,106 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:25:00,108 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:25:00,144 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:25:00,144 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:30:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:30:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:30:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:30:00,134 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:30:00,136 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:30:00,176 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:30:00,176 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:35:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:35:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:35:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:35:00,160 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:35:00,161 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:35:00,208 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:35:00,208 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:40:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:40:00,010 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:40:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:40:00,107 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:40:00,108 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:40:00,142 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:40:00,143 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:45:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:45:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:45:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:45:00,129 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:45:00,130 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:45:00,168 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:45:00,168 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:50:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:50:00,016 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:50:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:50:00,128 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:50:00,129 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:50:00,172 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:50:00,172 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 02:55:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 02:55:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:55:00,022 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 02:55:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 02:55:00,145 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 02:55:00,146 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 02:55:00,185 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 02:55:00,186 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:00:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:00:00,015 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:00:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:00:00,131 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:00:00,132 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:00:00,171 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:00:00,171 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:05:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:05:00,022 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:05:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:05:00,134 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:05:00,135 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:05:00,175 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:05:00,175 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:10:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:10:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:10:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:10:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:10:00,123 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:10:00,124 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:10:00,167 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:10:00,167 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:15:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:15:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:15:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:15:00,116 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:15:00,117 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:15:00,152 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:15:00,152 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:20:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:20:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:20:00,023 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:20:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:20:00,143 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:20:00,144 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:20:00,181 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:20:00,181 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:25:00,027 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:25:00,027 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:25:00,027 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:25:00,146 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:25:00,147 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:25:00,186 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:25:00,186 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:30:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:30:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:30:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:30:00,131 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:30:00,132 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:30:00,173 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:30:00,173 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:35:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:35:00,022 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:35:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:35:00,167 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:35:00,168 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:35:00,204 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:35:00,204 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:40:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:40:00,013 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:40:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:40:00,104 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:40:00,106 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:40:00,144 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:40:00,144 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:45:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:45:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:45:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:45:00,129 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:45:00,130 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:45:00,169 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:45:00,169 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:50:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:50:00,013 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:50:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:50:00,128 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:50:00,129 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:50:00,169 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:50:00,169 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 03:55:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 03:55:00,038 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:55:00,039 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 03:55:00,039 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 03:55:00,147 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 03:55:00,148 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 03:55:00,185 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 03:55:00,185 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:00:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:00:00,013 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:00:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:00:00,147 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:00:00,148 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:00:00,195 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:00:00,195 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:05:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:05:00,021 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:05:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:05:00,144 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:05:00,145 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:05:00,186 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:05:00,187 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:10:00,032 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:10:00,035 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:10:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:10:00,142 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:10:00,143 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:10:00,189 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:10:00,190 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:15:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:15:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:15:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:15:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:15:00,131 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:15:00,134 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:15:00,175 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:15:00,175 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:20:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:20:00,035 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:20:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:20:00,373 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:20:00,375 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:20:00,653 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:20:00,654 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:25:00,679 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:25:00,680 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:25:00,680 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:25:01,502 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 04:25:01,502 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:25:01,895 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:25:01,897 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 04:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:30:00,819 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:30:00,823 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:30:00,824 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:30:01,246 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 04:30:01,248 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:30:01,368 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:30:01,369 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 04:35:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:35:01,087 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:35:01,087 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:35:01,087 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:35:01,698 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 04:35:01,699 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:35:01,837 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:35:01,837 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 04:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:40:00,402 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:40:00,402 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:40:00,402 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:40:01,053 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 04:40:01,066 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:40:01,271 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:40:01,271 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 04:45:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:45:00,643 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:45:00,643 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:45:00,643 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:45:00,896 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:45:00,898 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:45:00,941 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:45:00,941 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:50:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:50:00,021 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:50:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:50:00,151 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 04:50:00,151 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:50:00,190 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:50:00,192 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 04:55:00,003 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 04:55:00,734 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:55:00,734 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 04:55:00,734 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 04:55:01,203 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 04:55:01,215 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 04:55:01,366 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 04:55:01,368 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 05:00:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:00:00,583 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:00:00,583 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:00:00,585 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:00:01,063 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 05:00:01,065 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:00:01,130 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:00:01,130 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 05:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:05:00,169 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:05:00,169 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:05:00,169 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:05:00,355 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:05:00,357 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:05:00,407 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:05:00,407 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:10:00,267 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:10:00,267 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:10:00,268 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:10:00,971 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:10:00,972 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:10:01,252 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:10:01,252 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 05:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:15:00,555 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:15:00,563 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:15:00,563 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:15:01,125 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           1s
+2017-03-16 05:15:01,127 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:15:01,346 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:15:01,352 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2017-03-16 05:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:20:00,448 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:20:00,449 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:20:00,449 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:20:00,844 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:20:00,846 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:20:00,964 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:20:00,966 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:25:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:25:00,156 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:25:00,156 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:25:00,156 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:25:00,259 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:25:00,260 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:25:00,372 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:25:00,374 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:30:00,421 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:30:00,421 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:30:00,421 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:30:00,842 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:30:00,844 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:30:00,953 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:30:00,953 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:35:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:35:00,121 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:35:00,121 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:35:00,121 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:35:00,266 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:35:00,267 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:35:00,383 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:35:00,384 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:40:00,224 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:40:00,224 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:40:00,226 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:40:00,560 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:40:00,574 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:40:00,795 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:40:00,795 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:45:00,471 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:45:00,472 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:45:00,472 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:45:00,718 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:45:00,728 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:45:00,820 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:45:00,821 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:50:00,238 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:50:00,238 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:50:00,238 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:50:00,536 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:50:00,537 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:50:00,616 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:50:00,616 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 05:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 05:55:00,346 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:55:00,346 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 05:55:00,346 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 05:55:00,505 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 05:55:00,507 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 05:55:00,557 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 05:55:00,557 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:00:00,125 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:00:00,128 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:00:00,128 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:00:00,496 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:00:00,497 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:00:00,579 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:00:00,579 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:05:00,077 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:05:00,078 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:05:00,079 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:05:00,260 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:05:00,261 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:05:00,399 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:05:00,400 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:10:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:10:00,336 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:10:00,337 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:10:00,337 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:10:00,425 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:10:00,427 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:10:00,461 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:10:00,461 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:15:00,067 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:15:00,068 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:15:00,068 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:15:00,437 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:15:00,441 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:15:00,681 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:15:00,685 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:20:00,495 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:20:00,513 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:20:00,513 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:20:00,736 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:20:00,743 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:20:00,804 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:20:00,804 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:25:00,086 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:25:00,086 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:25:00,086 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:25:00,231 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:25:00,232 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:25:00,329 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:25:00,330 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:30:00,232 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:30:00,237 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:30:00,237 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:30:00,492 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:30:00,492 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:30:00,606 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:30:00,607 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:35:00,210 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:35:00,211 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:35:00,212 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:35:00,531 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:35:00,532 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:35:00,645 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:35:00,646 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:40:00,216 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:40:00,217 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:40:00,217 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:40:00,470 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:40:00,473 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:40:00,537 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:40:00,537 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:45:00,003 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:45:00,167 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:45:00,168 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:45:00,169 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:45:00,432 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:45:00,433 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:45:00,484 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:45:00,484 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:50:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:50:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:50:00,008 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:50:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:50:00,119 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:50:00,120 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:50:00,156 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:50:00,156 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 06:55:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 06:55:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:55:00,014 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 06:55:00,014 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 06:55:00,095 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 06:55:00,096 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 06:55:00,127 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 06:55:00,127 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:00:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:00:00,021 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:00:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:00:00,140 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:00:00,141 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:00:00,182 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:00:00,182 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:05:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:05:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:05:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:05:00,129 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:05:00,130 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:05:00,170 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:05:00,170 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:10:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:10:00,015 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:10:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:10:00,118 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:10:00,119 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:10:00,161 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:10:00,161 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:15:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:15:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:15:00,015 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:15:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:15:00,177 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:15:00,178 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:15:00,217 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:15:00,218 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:20:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:20:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:20:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:20:00,135 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:20:00,137 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:20:00,182 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:20:00,182 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:25:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:25:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:25:00,020 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:25:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:25:00,101 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:25:00,102 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:25:00,137 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:25:00,137 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:30:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:30:00,024 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:30:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:30:00,127 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:30:00,129 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:30:00,165 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:30:00,165 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:35:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:35:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:35:00,021 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:35:00,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:35:00,143 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:35:00,144 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:35:00,189 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:35:00,189 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:40:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:40:00,019 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:40:00,020 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:40:00,118 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:40:00,119 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:40:00,153 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:40:00,153 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:45:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:45:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:45:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:45:00,130 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:45:00,131 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:45:00,170 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:45:00,170 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:50:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:50:00,013 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:50:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:50:00,129 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:50:00,130 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:50:00,168 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:50:00,168 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 07:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 07:55:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:55:00,008 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 07:55:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 07:55:00,081 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 07:55:00,082 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 07:55:00,110 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 07:55:00,110 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:00:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:00:00,010 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:00:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:00:00,141 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:00:00,142 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:00:00,171 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:00:00,171 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:05:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:05:00,023 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:05:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:05:00,138 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:05:00,139 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:05:00,179 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:05:00,180 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:10:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:10:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:10:00,018 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:10:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:10:00,129 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:10:00,131 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:10:00,175 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:10:00,175 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:15:00,033 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:15:00,033 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:15:00,033 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:15:00,148 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:15:00,149 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:15:00,196 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:15:00,196 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:20:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:20:00,036 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:20:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:20:00,169 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:20:00,169 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:20:00,205 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:20:00,206 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:25:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:25:00,017 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:25:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:25:00,093 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:25:00,094 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:25:00,125 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:25:00,125 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-03-16 08:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-03-16 08:30:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:30:00,022 INFO  c.c.d.collector.CollectorTask - http://centralsonar.niit-tech.in:9000
+2017-03-16 08:30:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-03-16 08:30:00,134 INFO  c.c.d.collector.CollectorTask - Fetched projects   110           0s
+2017-03-16 08:30:00,136 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-03-16 08:30:00,176 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-03-16 08:30:00,176 INFO  c.c.d.collector.CollectorTask - Finished                         0s
