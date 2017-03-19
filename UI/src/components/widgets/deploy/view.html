@@ -1,0 +1,75 @@
+<!--
+<div class="deploy-view">
+    <table class="table">
+        <tr ng-click="deployView.showDetail(environment)">
+            <td align="right">
+                <span>Deployment Trend Graph</span>
+                       
+            </td>
+         </tr>
+    </table>
+</div>
+
+-->
+
+<div class="deploy-view">
+
+ <div class="widget-heading">
+            <table class="table">
+				 <tr style="font-size:1.1rem;font-weight:600;"> 
+				      <td><span></span></td>
+					  <td width="25%"> ENVIRONMENT </td>
+					  <td width="25%" align="center"> LAST STATUS </td>
+					  <td width="25%" align="center"> SUCCESS COUNT </td>
+					  <td width="25%" align="center"> FAILURE COUNT </td>
+				  </tr>
+			</table>
+            	
+  </div>
+
+ <table class="table" id="downstream">
+   
+ </table>
+</div>
+
+
+
+
+
+<!-- ORIGINAL
+<div class="deploy-view">
+    <table class="table">
+        <tr class="dash-row clickable" ng-repeat="environment in deployView.environments" ng-click="deployView.showDetail(environment)">
+            <td>
+                <span
+                        dash-status="{{environment.failedComponents > 0 ? 
+                        	(environment.ignoreFailure? deployView.statuses.IGNORE : deployView.statuses.FAIL) : deployView.statuses.PASS}}"
+                        dash-status-fail-text="{{environment.failedComponents}}"
+                        dash-status-ignore-text="{{environment.failedComponents}}"></span>
+            </td>
+            <td class="dash-overflow environment-name">
+                {{environment.name}}
+            </td>
+            <td class="text-standard-date">
+                {{environment.lastUpdated | fromNow}}
+            </td>
+            <td class="server-count" ng-class="{'servers-up' : environment.serverUpCount > 0}">
+                {{environment.serverUpCount}}
+                <span class="fa fa-arrow-up"></span>
+            </td>
+            <td class="server-count" ng-class="{'servers-down' : environment.serverDownCount > 0}">
+                {{environment.serverDownCount}}
+                <span class="fa fa-arrow-down"></span>
+            </td>
+        </tr>
+    </table>
+</div>
+-->
+
+
+
+
+
+
+
+
